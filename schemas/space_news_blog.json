@@ -1,0 +1,19 @@
+{
+  "name": "spacenews blogs",
+  "type": "json_api",
+  "url": "https://api.spaceflightnewsapi.net/v4/blogs/?format=json",
+  "results_field_name": "results",
+  "schema": [
+      {
+        "id": "Int",
+        "title": "String",
+        "url": "String",
+        "image_url": "String",
+        "news_site": "String",
+        "summary": "String",
+        "published_at": "String",
+        "updated_at": "String",
+        "featured": "bool"
+      }
+  ]
+}
