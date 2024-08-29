@@ -13,5 +13,6 @@ I have a very strong opinion that ETL tools should be as performant as possible.
 flowchart TD
   A[Data Source] --> B[Extract];
   B --> C[Transform];
+  B --> D[Load];
   C --> D[Load];
 ```
